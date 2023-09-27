@@ -54,11 +54,3 @@ inflation_path <- here("data", "processed", "inflation.rds")
 fs::dir_create(fs::path_dir(inflation_path))
 write_rds(inflation_raw, inflation_path, compress = "gz")
 
-# use a function without loading the package:
-# package::function
-usethis::use_git_config(
-  user.name = "Aishvarya Aravindan", # <-- change to your name
-  user.email = "aishvarya.aravindan@hu-berlin.de", # <-- and your email
-  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
-
-usethis::use_git()
