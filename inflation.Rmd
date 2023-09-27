@@ -72,9 +72,12 @@ usethis::use_git_config(
   user.name = "Aishvarya Aravindan", # <-- change to your name
   user.email = "aishvarya.aravindan@hu-berlin.de", # <-- and your email
   init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
+```
 
+```{r}
 usethis::use_git()
 
 ```
+
 
 
