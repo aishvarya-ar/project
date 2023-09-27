@@ -65,4 +65,16 @@ knitr::opts_chunk$set(echo = TRUE)
 print("Hallo World! Python here, do you miss R already?")
 ```
 
+```{r}
+# use a function without loading the package:
+# package::function
+usethis::use_git_config(
+  user.name = "Aishvarya Aravindan", # <-- change to your name
+  user.email = "aishvarya.aravindan@hu-berlin.de", # <-- and your email
+  init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
+
+usethis::use_git()
+
+```
+
 
