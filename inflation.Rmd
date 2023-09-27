@@ -65,9 +65,6 @@ with(mtcars, plot(hp, mpg))
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{python}
-print("Hallo World! Python here, do you miss R already?")
-```
 
 
 
